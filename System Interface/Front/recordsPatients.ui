@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DockWidget</class>
+ <widget class="QDockWidget" name="DockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>598</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>DockWidget</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>576</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_records_patient">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>350</y>
+      <width>180</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: rgb(157, 180, 255);
+border-radius: 20px;
+
+color:rgb(69, 77, 179);
+font-size: 14px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Patient Records</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/patient.svg</normaloff>Icons/patient.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_records_session">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>285</y>
+      <width>180</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: rgb(157, 180, 255);
+border-radius: 20px;
+
+color:rgb(69, 77, 179);
+font-size: 14px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Session Records</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/session.svg</normaloff>Icons/session.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_main">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>220</y>
+      <width>180</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: rgb(157, 180, 255);
+border-radius: 20px;
+
+color:rgb(69, 77, 179);
+font-size: 14px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Dashboard</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/dashboard.svg</normaloff>Icons/dashboard.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>275</x>
+      <y>161</y>
+      <width>701</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Phone</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_records_pathology">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>415</y>
+      <width>180</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url();
+background-color: rgb(157, 180, 255);
+border-radius: 20px;
+
+color:rgb(69, 77, 179);
+font-size: 14px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Pathology Records</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Icons/patient.svg</normaloff>Icons/patient.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

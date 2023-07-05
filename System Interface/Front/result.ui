@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DockWidget</class>
+ <widget class="QDockWidget" name="DockWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>598</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>598</height>
+   </size>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="windowTitle">
+   <string>DockWidget</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="GoBack">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>50</y>
+      <width>100</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 84, 115);
+background-image: url();
+border-radius: 20px;
+font-size: 18px;
+font-weight:bold;
+color: rgb(255, 252, 255)</string>
+    </property>
+    <property name="text">
+     <string>Return</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>576</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_ID">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>175</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Name">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>235</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Email">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>295</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Phone">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>355</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Age">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>175</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Gender">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>235</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtEdit_Diagnosis">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>295</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(157, 180, 255);
+border-radius: 20px;
+font-size: 12px;
+color: rgb(0, 0, 0);</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>GoBack</zorder>
+   <zorder>txtEdit_ID</zorder>
+   <zorder>txtEdit_Name</zorder>
+   <zorder>txtEdit_Email</zorder>
+   <zorder>txtEdit_Phone</zorder>
+   <zorder>txtEdit_Age</zorder>
+   <zorder>txtEdit_Gender</zorder>
+   <zorder>txtEdit_Diagnosis</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

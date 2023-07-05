@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Images/Results.png</file>
+    <file>Images/ResultsHealthy.png</file>
+    <file>Images/ResultsPathology.png</file>
+    <file>Images/ShowRecordsPatients.png</file>
+    <file>Images/ShowRecordsSession.png</file>
+    <file>Images/StartSession.png</file>
+    <file>Images/Register.png</file>
+    <file>Images/ShowDisorders.png</file>
+    <file>Images/Main.png</file>
+  </qresource>
+</RCC>
