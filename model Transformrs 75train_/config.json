@@ -1,0 +1,35 @@
+{
+  "_name_or_path": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "architectures": [
+    "ASTForAudioClassification"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "frequency_stride": 10,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "Laryngitis",
+    "1": "Hyperfunktionelle",
+    "2": "Rekurrensparese"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "Hyperfunktionelle": 1,
+    "Laryngitis": 0,
+    "Rekurrensparese": 2
+  },
+  "layer_norm_eps": 1e-12,
+  "max_length": 1024,
+  "model_type": "audio-spectrogram-transformer",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_mel_bins": 128,
+  "patch_size": 16,
+  "problem_type": "single_label_classification",
+  "qkv_bias": true,
+  "time_stride": 10,
+  "torch_dtype": "float32",
+  "transformers_version": "4.31.0.dev0"
+}
