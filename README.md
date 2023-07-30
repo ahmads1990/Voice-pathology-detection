@@ -37,7 +37,7 @@ Team Members who contributed to this project:
 
 - [Ahmed Osama](https://github.com/ahmedosama-eng)
 - [Abdalla Osama](https://github.com/DalaOsos)
-- [Manal Gerges](https://github.com/collaborator1)
+- [Manal Gerges](https://github.com/ManalGergesZaky)
 
 - [Sara Mohammed](https://github.com/saramohamed55)
 - [Adham Ahmed](https://github.com/AdHam14a)
@@ -115,7 +115,7 @@ SVD is german database contains a collection of voice recordings from individual
 ## Demo
 check out our project in action! Watch the video demonstration below:
 
-[![Video Demo](/Images/system1.png)](/Images/sysVid.mov)
+[[![Video Demo](/Images/system1.png)](/Images/sysVid.mov)](https://github.com/ahmads1990/Voice-pathology-detection/assets/54421982/d9954324-2337-4ef6-a915-29a44351d06e)
 
 ## Acknowledgements
 
