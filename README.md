@@ -115,7 +115,7 @@ SVD is german database contains a collection of voice recordings from individual
 ## Demo
 check out our project in action! Watch the video demonstration below:
 
-[[![Video Demo](/Images/system1.png)](/Images/sysVid.mov)](https://github.com/ahmads1990/Voice-pathology-detection/assets/54421982/d9954324-2337-4ef6-a915-29a44351d06e)
+(https://github.com/ahmads1990/Voice-pathology-detection/assets/54421982/d9954324-2337-4ef6-a915-29a44351d06e)
 
 ## Acknowledgements
 
