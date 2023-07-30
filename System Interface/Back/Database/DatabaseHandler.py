@@ -210,12 +210,14 @@ class DatabaseHandler():
 
     def update_session_pathology_id(self,session_id, pathology_id):
         db = connection()
-        cr = getCursor(db)
+        #cr = getCursor(db)
         # Execute the UPDATE query
-        cr.execute("UPDATE sessions SET pathology_id = ? WHERE session_id = ?", (pathology_id, session_id))
+        db.execute("UPDATE sessions SET pathology_id = ? WHERE session_id = ?", (pathology_id, session_id))
 
         # Commit the changes
-        save(self.db)
+        db.commit()
+        
+        db.close()
 
     def phrases_letters(self, session_id):
         db = connection()

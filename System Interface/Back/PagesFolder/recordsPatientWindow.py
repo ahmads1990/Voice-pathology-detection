@@ -23,7 +23,8 @@ class recordsPatientsWindow(QDockWidget):
         # Side
         self.btn_main.clicked.connect(self.switchWindowToMain)
         self.btn_records_session.clicked.connect(self.switchWindowToRecordsSession)
-    
+        self.btn_records_pathology.clicked.connect(self.switchWindowToRecordsPathology)
+
     def load_data(self):
         data = self.databaseHandler.all_data_patients()
         #print(data)
@@ -35,9 +36,9 @@ class recordsPatientsWindow(QDockWidget):
             self.tableWidget.setItem(row , 0 , QTableWidgetItem(id))
             self.tableWidget.setItem(row , 1 , QTableWidgetItem(patient[1]))
             self.tableWidget.setItem(row , 2 , QTableWidgetItem(age))
-            self.tableWidget.setItem(row , 3 , QTableWidgetItem(patient[2]))
-            self.tableWidget.setItem(row , 4 , QTableWidgetItem(patient[3]))
-            self.tableWidget.setItem(row , 5 , QTableWidgetItem(patient[4]))
+            self.tableWidget.setItem(row , 3 , QTableWidgetItem(patient[3]))
+            self.tableWidget.setItem(row , 4 , QTableWidgetItem(patient[4]))
+            self.tableWidget.setItem(row , 5 , QTableWidgetItem(patient[5]))
             row=row+1
         
     # change window
@@ -46,3 +47,7 @@ class recordsPatientsWindow(QDockWidget):
     
     def switchWindowToRecordsSession(self):
         self.widgetManager.GoToRecordsSession()
+        
+    def switchWindowToRecordsPathology(self):
+        self.widgetManager.GoToRecordsPathology()
+    

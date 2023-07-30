@@ -25,7 +25,7 @@ class recordsPathologyWindow(QDockWidget):
         self.btn_main.clicked.connect(self.switchWindowToMain)
         self.btn_records_session.clicked.connect(self.switchWindowToRecordsSession)
         self.btn_records_patient.clicked.connect(self.switchWindowToRecordsPatient)
-    
+        
     def returnButton(self, name):
         pushButton = QPushButton()
         pushButton.setObjectName(name)
@@ -35,7 +35,7 @@ class recordsPathologyWindow(QDockWidget):
                                 border-radius: 10px;
                                 text-align:center;
                                 color:rgb(69, 77, 179);
-                                font-size: 14px;
+                                font-size: 12px;
                                 font-weight: bold;
                                 Height:40px""")
         pushButton.setText (name)

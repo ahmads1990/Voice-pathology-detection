@@ -42,6 +42,7 @@ class resultWindow(QDockWidget):
         print(self.pathologyDto)
         print(self.result)
         self.pathologyDto.print_attributes()
+        self.sessionDto.print_attributes()
         
         if(self.result == "healthy"):
             self.background.setStyleSheet(
