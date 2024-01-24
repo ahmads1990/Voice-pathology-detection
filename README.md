@@ -1,6 +1,7 @@
 # Voice Pathology Detection
 
-Graduation project for Ain shams Scientific Computing general program
+Graduation project for Ain shams Scientific Computing general program, The publication of our paper "Analysis of Deep Learning Models for Voice Pathology detection "
+on IEEE Explore, you can check it out [here](https://ieeexplore.ieee.org/document/10391118)
 
 ## Table of Contents
 
@@ -10,7 +11,7 @@ Graduation project for Ain shams Scientific Computing general program
 - [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
 - [Preprocessing](#preprocessing)
-- [Feature Extraction](#-feature-extraction)
+- [Feature Extraction](#feature-extraction)
 - [Binary Model Architecture](#binary-model-architecture)
 - [Results](#results)
 - [Classification Model Architecture](#classification-model-architecture)
@@ -21,7 +22,7 @@ Graduation project for Ain shams Scientific Computing general program
 
 ## Introduction
 
-Our graduation project, **Voice Pathology Detection**, is a program designed to assess the health of a person's voice and classify voice disorders using both Machine Learning (ML) and Deep Learning (DL) techniques.
+Our graduation project, **Voice Pathology Detection**, is a program designed to diagnose the health of a person's voice and classify voice disorders using both Machine Learning (ML) and Deep Learning (DL) techniques.
 
 The human voice is a powerful tool for communication, but voice disorders can significantly impact a person's ability to communicate effectively. Early detection of voice pathologies is crucial for timely intervention and appropriate treatment. Our project aims to provide a valuable tool for identifying voice disorders by analyzing audio recordings of voice samples.
 
